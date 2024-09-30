@@ -1,5 +1,10 @@
+:root {
+    --heading-background-color: steelblue;
+    --footer-used-color: grey;
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -10,7 +15,7 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: var(--heading-background-color);
 }
 
 main {
@@ -20,9 +25,9 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--heading-background-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--footer-used-color);
 }
 
 p {
@@ -45,6 +50,6 @@ aside img {
 
 footer {
     margin-top: 10px;
-    border-top: 2px dashed grey;
+    border-top: 2px dashed var(--footer-used-color);
     text-align: center;
 }
