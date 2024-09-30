@@ -1,6 +1,6 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -44,6 +44,7 @@ p {
 aside {
     width: 500px;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
