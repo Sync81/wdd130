@@ -162,6 +162,15 @@ form fieldset div {
     padding: .4rem;
 }
 
+form button {
+    padding: 5px;
+    background-color: blue;
+}
+
+form button:hover {
+    background-color: #126F54;
+}
+
 footer {
     display: flex;
     width: 1904px;
