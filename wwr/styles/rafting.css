@@ -120,6 +120,65 @@ main {
     height: auto;
 }
 
+.hero2 {
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: center;
+}
+
+.hero2 img {
+    width: 1900px;
+    height: auto;
+}
+
+.newsletter {
+    margin-top: 450px;
+    width: 2000px;
+    display: flex;
+    align-content: center;
+    background-color: var(--accent1-color);
+}
+
+.newsletter h1 {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    background-color: var(--accent1-color);
+
+}
+
+.newsletter form {
+    margin-top: 5px;
+    background-color: var(--accent1-color);
+    margin-bottom: 5px;
+
+}
+
+.newsletter p {
+    margin-left: 10px;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.newsletter a {
+    align-content: center;
+    font-size: 4rem;
+    margin-top: 30px;
+}
+
+.additional {
+    margin-top: 200px;
+    display: flex;
+    background-color: var(--accent1-color);
+}
+
+.additional img {
+    width: 400px;
+    height: auto;
+}
+
 .contact {
     height: 250px;
     margin: 0;
@@ -164,7 +223,7 @@ form fieldset div {
 
 form button {
     padding: 5px;
-    background-color: blue;
+    background-color: aliceblue;
 }
 
 form button:hover {
