@@ -139,19 +139,15 @@ main {
     width: 2000px;
     display: flex;
     align-content: center;
-    background-color: var(--accent1-color);
 }
 
 .newsletter h1 {
     font-size: 1.5rem;
     margin-right: 10px;
-    background-color: var(--accent1-color);
-
 }
 
 .newsletter form {
     margin-top: 5px;
-    background-color: var(--accent1-color);
     margin-bottom: 5px;
 
 }
