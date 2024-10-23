@@ -136,7 +136,7 @@ main {
 
 .newsletter {
     margin-top: 450px;
-    width: 2000px;
+    width: 1900px;
     display: flex;
     align-content: center;
 }
@@ -160,7 +160,7 @@ main {
 
 .newsletter a {
     align-content: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 30px;
 }
 
@@ -224,6 +224,47 @@ form button {
 
 form button:hover {
     background-color: #126F54;
+}
+
+.trip {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 60px 1fr;
+}
+
+.trip a {
+    text-align: center;
+    font-size: 2rem;
+    align-content: center;
+}
+
+.favorite {
+    display: flex;
+    background-color: var(--accent1-color);
+}
+
+.favorite figure {
+    border: 1px black solid;
+}
+
+.favorite img {
+    width: 400px;
+    height: auto;
+}
+
+table {
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 25px; 
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
 }
 
 footer {
